@@ -111,12 +111,12 @@ header{
 
 .social-icons{
     background-color: white;
-    padding: 0.75rem;
+    padding: 0.5rem;
     border-radius: 30px;
-    box-shadow: 5px 5px lightgrey;
+    box-shadow: 5px 5px 3px lightgrey;
 }
 
-#instagram, #pinterest, #youtube{
+#instagram, #pintrest, #youtube{
     color: red;
 }
 /* #endregion Social */
@@ -170,10 +170,15 @@ footer{
     text-align: center;
 }
 
+.address{
+    text-align: center;
+}
+
 .final-links{
     padding-top: 1rem;
     text-align: center;
-    gap: 1rem;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
 }
 
 .disclamer{
@@ -211,35 +216,29 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    column-gap: 5rem;
+    column-gap: 4rem;
 }
 
 .py-1-5-md{
-    /* padding-top: 0.25rem; */
     padding-bottom: 1.5rem;
 }
 
-.px-0-md{
-    margin-left: 0;
-}
-
-.social-logo-md{
-    width: 70px;
-    aspect-ratio: 2.5;
-    padding: 0.25rem;
+.social-icons-md{
     background-color: white;
-    border-radius: 30px;
-    box-shadow: 3px 3px gray;
-    margin: 1.5rem 0;
-}
-
-.social-text-lg{
-    text-decoration: none;
-    font-size: 0.5rem;
+    padding: 0.25rem 2rem;
 }
 
 .banner-md{
     display: block;
+}
+
+.tiramisu-md{
+    margin-left: 0;
+}
+
+.tiramisu-pic-md{
+    float: left;
+    margin-right: 0.5rem;
 }
 
 
