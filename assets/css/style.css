@@ -17,6 +17,7 @@ img{
     --title-color: #4e396d;
     --facebook: #348cf5;
     --twitter: #009eff;
+    --footer-bg: #7c69a4;
 }
 
 .debug{
@@ -25,6 +26,11 @@ img{
 
 .container{
     width: 80%;
+    margin: auto;
+}
+
+.container-sm{
+    width: 70%;
     margin: auto;
 }
 
@@ -45,7 +51,7 @@ img{
 
 body{
     background-color: var(--bg-main);
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
 
@@ -117,19 +123,71 @@ header{
 }
 /* #endregion Social */
 
-/* #region Banner */
+/* #region Advertising */
 .banner{
     display: none;
 }
-/* #endregion Banner */
+/* #endregion Advertising */
 
 
 /* #region Presentation */
+#text-title{
+    margin-top: 3rem;
+}
+
 hr{
     width: 20%;
     border: 3px solid #ff9614;
+    margin: 1rem 0;
+}
+
+.tiramisu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.presentation-text{
+    margin-top: 2rem;
+    font-size: 1.25rem;
 }
 /* #endregion Presentation */
+
+/* #region Footer */
+footer{
+    background-color: var(--footer-bg);
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    h6{
+        font-size: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+
+    }
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+}
+
+.final-links{
+    padding-top: 1rem;
+    text-align: center;
+    gap: 1rem;
+}
+
+.disclamer{
+    margin-left: 12rem;
+}
+
+.link-info > a{
+    color: white;
+}
+
+/* #endregion Footer */
+
 
 
 
@@ -148,7 +206,6 @@ hr{
     font-weight: bolder;
     color: var(--title-color);
     padding: 1.5rem 0;
-    /* padding-left: 1rem; */
 }
 .recap-md{
     display: flex;
