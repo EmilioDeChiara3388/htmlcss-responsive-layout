@@ -50,6 +50,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 2rem 0;
 }
 
 .social-logo{
@@ -140,8 +141,20 @@ header{
 li{
     display: inline-block;
 }
+.social-logo-md{
+    width: 70px;
+    aspect-ratio: 2.5;
+    padding: 0.25rem;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px gray;
+    margin: 1.5rem 0;
+}
+
 
 }
+
+
 
 @media screen and (min-width: 992px){
     .name-site-md{
