@@ -190,6 +190,8 @@ footer{
 
 
 /* #region Media Query */
+
+/* #region Screen Min-768px */
 @media screen and (min-width: 768px){
 .name-site-md{
         text-align: left;
@@ -205,15 +207,22 @@ footer{
     color: var(--title-color);
     padding: 1.5rem 0;
 }
-.recap-md{
+.sum-up-md{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    column-gap: 5rem;
 }
 
-li{
-    display: inline-block;
+.py-1-5-md{
+    /* padding-top: 0.25rem; */
+    padding-bottom: 1.5rem;
 }
+
+.px-0-md{
+    margin-left: 0;
+}
+
 .social-logo-md{
     width: 70px;
     aspect-ratio: 2.5;
@@ -236,6 +245,10 @@ li{
 
 }
 
+/* #endregion Screen Min-768px */
+
+
+/* #region Screen Min-992px */
 
 
 @media screen and (min-width: 992px){
@@ -280,6 +293,9 @@ li{
         display: block;
     }
 }
+
+/* #endregion Screen Min-992px */
+
 /* #endregion Media Query */
 
 
