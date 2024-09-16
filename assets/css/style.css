@@ -279,7 +279,6 @@ footer{
         font-weight: bolder;
         color: var(--title-color);
         padding-bottom: 1.5rem 0;
-        /* padding-left: 1rem; */
     }
 
     .col-3-lg{
@@ -290,17 +289,22 @@ footer{
         width: calc(100% / 12 * 9);
     }
 
+    .recap-lg{
+        background-color: white;
+        margin: 0;
+    }
+
     .card{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .p-1-5-lg{
-        padding: 0.5rem 0;
+    h4{
+        padding-left: 1rem;
     }
 
-    .recap-lg{
-        padding-right: 5rem;
+    .py-1-5-lg{
+        padding-left: 1rem;
     }
 
     .banner-lg{
