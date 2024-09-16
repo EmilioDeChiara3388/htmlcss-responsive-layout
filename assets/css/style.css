@@ -4,4 +4,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img{
+    max-width: 100%;
+}
 /* #endregion General */
+
+/* #region Utilities */
+:root{
+    --main: #ff9614;
+    --bg-main: #f6f5f3;
+}
+
+.debug{
+    border: 2px dashed;
+}
+
+.container{
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12{
+    width: 100%;
+}
+/* #endregion Utilities */
+
+header{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: var(--main);
+    font-family: nerko one;
+}
+
+body{
+    background-color: var(--bg-main);
+}
