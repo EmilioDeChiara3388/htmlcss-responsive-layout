@@ -241,6 +241,21 @@ footer{
     margin-right: 0.5rem;
 }
 
+.container-sm-md{
+    width: 80%;
+    margin: auto;
+}
+
+.final-links-md{
+    padding-top: 1rem;
+    text-align: center;
+    column-gap: 1.5rem;
+}
+
+.disclamer-md{
+    margin-left: 0rem;
+}
+
 
 }
 
