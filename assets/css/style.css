@@ -20,9 +20,9 @@ img{
     --footer-bg: #7c69a4;
 }
 
-.debug{
+/* .debug{
     border: 2px dashed;
-}
+} */
 
 .container{
     width: 80%;
@@ -74,7 +74,7 @@ header{
 /* #region Section Video e Info */
 #type{
     color: gray;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .title{
@@ -112,7 +112,7 @@ header{
 .social-icons{
     background-color: white;
     padding: 0.5rem;
-    border-radius: 30px;
+    border-radius: 50%;
     box-shadow: 5px 5px 3px lightgrey;
 }
 
@@ -263,8 +263,6 @@ footer{
 
 
 /* #region Screen Min-992px */
-
-
 @media screen and (min-width: 992px){
     .name-site-md{
         text-align: left;
@@ -278,7 +276,7 @@ footer{
         display: block;
         font-weight: bolder;
         color: var(--title-color);
-        padding-bottom: 1.5rem 0;
+        padding-bottom: 1.5rem;
     }
 
     .col-3-lg{
@@ -310,6 +308,20 @@ footer{
     .banner-lg{
         display: block;
     }
+
+    /* .container-sm-lg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .left-info-lg{
+        padding-left: 1rem;
+    }
+
+    .final-links-lg{
+        display: flex;
+        justify-content: flex-end;
+    } */
 }
 
 /* #endregion Screen Min-992px */
